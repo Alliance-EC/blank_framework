@@ -50,3 +50,20 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# dot files
+/.vscode/launch.json
+/.vscode/settings.json
+/.eide/log
+/.eide.usr.ctx.json
+/.settings
+
+# project out
+/build
+/out
+/bin
+/obj
+
+# eide template
+*.ept
+*.eide-template

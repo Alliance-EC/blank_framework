@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "${command:eide.project.build}",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "flash",
+      "type": "shell",
+      "command": "${command:eide.project.uploadToDevice}",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "build and flash",
+      "type": "shell",
+      "command": "${command:eide.project.buildAndFlash}",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "rebuild",
+      "type": "shell",
+      "command": "${command:eide.project.rebuild}",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "${command:eide.project.clean}",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Debug with Ozone", //!需要将Ozone目录添加到环境变量
+      "type": "shell",
+      "command": "Ozone",
+      "args": ["${workspaceFolder}/ozone_debug.jdebug"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ]
+}
