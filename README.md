@@ -32,6 +32,7 @@
 - **Hex Editor**：在查看汇编代码和机器代码的时候，提供2、10、16进制转换，并且可以以16进制或2进制的格式编辑文件。
 - **CodeGeeX: AI Code AutoComplete, Chat, Auto Comment**：中国免费AI辅助
 - **==Better Comments==**：在代码中创建更人性化的注释
+- **==koroFileHeader==**：一键生成函数注释与文件头注释
 - **Better C++ Syntax**：提供更丰富的代码高亮和智能提示，会改变一些颜色
 - **C/C++ Snippets**：提供代码块（关键字）补全
 - **Blockman - Highlight Nested Code Blocks** ：此插件会高亮嵌套的代码块（即花括号包围的部分或for/while/if else代码块），对于多层条件和循环嵌套效果非常炸裂
